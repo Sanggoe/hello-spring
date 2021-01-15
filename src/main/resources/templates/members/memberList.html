@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <body>
 <div class="container">
@@ -12,12 +12,12 @@
             </thead>
             <tbody>
             <tr th:each="member : ${members}">
-                <th th:text="${member.id}"></th>
-                <th th:text="${member.name}"></th>
+                <td th:text="${member.id}"></td>
+                <td th:text="${member.name}"></td>
             </tr>
             </tbody>
         </table>
     </div>
-</div>
+</div> <!-- /container -->
 </body>
 </html>
